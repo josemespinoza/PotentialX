@@ -42,7 +42,7 @@ EventId int not null,
 Gender char(1),
 DateOfBirth date,
 DateTimeAttended [datetime] NULL,
-TicketsType varchar(100)
+TicketID int 
 )
 GO
 
