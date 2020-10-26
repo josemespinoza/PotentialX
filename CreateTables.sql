@@ -49,6 +49,7 @@ GO
 CREATE TABLE Ticket (
 Id int not null identity(1,1) Primary key,
 TicketType varchar(100),
-TicketPrice money)
+TicketPrice money,
+EventID int )
 GO
 
