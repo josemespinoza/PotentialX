@@ -31,9 +31,7 @@ Address varchar(100),
 Suburb varchar(100),
 State varchar(100),
 PostCode varchar(10),
-WebPage varchar(100),
-TicketsType varchar(100),
-TicketPrice money,
+WebPage varchar(100)
 )
 GO
 
@@ -46,5 +44,11 @@ DateOfBirth date,
 DateTimeAttended date,
 TicketsType varchar(100)
 )
+GO
+
+CREATE TABLE Ticket (
+Id int not null identity(1,1) Primary key,
+TicketType varchar(100),
+TicketPrice money)
 GO
 
