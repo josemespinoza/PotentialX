@@ -41,7 +41,7 @@ Id int not null identity(1,1) primary key,
 EventId int not null,
 Gender char(1),
 DateOfBirth date,
-DateTimeAttended date,
+DateTimeAttended [datetime] NULL,
 TicketsType varchar(100)
 )
 GO
