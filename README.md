@@ -3,7 +3,7 @@
 Assumptions:
  1. Analysis is for events in the past.
  2. Events and Peoples data stores are physicaly located in the same hosting infrastructure. 
- 3. SQl server is already installed in the server and in the same directory as in the create DB scripts.
+ 3. SQL server is already installed in the server and in the same directory as in the create DB scripts.
  
 Questions:
 
