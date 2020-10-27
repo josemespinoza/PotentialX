@@ -3,6 +3,7 @@
 Assumptions:
  1. Analysis is for events in the past.
  2. Events and Peoples data stores are physicaly located in the same hosting infrastructure. 
+ 3. SQl server is already installed in the server and in the same directory as in the create DB scripts.
  
 Questions:
 
@@ -18,5 +19,4 @@ Questions:
       If Events data goes several years back, check what they think is a relevant date range to query the data. 
       Also are there any characteristics already defined for the group of people to be coallased with the events data store so I can filter them out? 
       Is this a one off request or reports will be used regularly? This is to know if the data preparation should be automated, e.g ETL development.
-      
       
